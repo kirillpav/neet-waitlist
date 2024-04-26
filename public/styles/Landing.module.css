@@ -2,6 +2,7 @@
 	font-size: 150px;
 	filter: blur(2);
 	margin-top: 45px;
+	color: rgb(251, 251, 251);
 }
 
 .container {
@@ -23,6 +24,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	color: rgb(251, 251, 251);
 }
 
 .email__form {
@@ -56,6 +58,6 @@
 .email__btn {
 	width: 10em;
 	padding: 10px;
-	border: 1px solid white;
+	border: 1px solid rgb(251, 251, 251);
 	border-radius: 10px;
 }
