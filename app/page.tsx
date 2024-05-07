@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 import styles from "../public/styles/Landing.module.css";
 import Image from "next/image";
 import ThreeScene from "@/components/ThreeScene";
+import Form from "@/components/Form";
 
 export default function Home() {
 	return (
@@ -21,24 +22,11 @@ export default function Home() {
 					height={500}
 					alt="globe"
 				/>
-				{/* <ThreeScene /> */}
 				<p className={styles.main__text}>
 					Right People <br></br> Right Place <br></br>Right Time
 				</p>
+				<Form />
 			</div>
-
-			<form className={styles.email__form}>
-				<div className={styles.email__container}>
-					<input
-						type="email"
-						className={styles.email__input}
-						placeholder="your email"
-					></input>
-					<button type="submit" className={styles.email__btn}>
-						JOIN WAITLIST
-					</button>
-				</div>
-			</form>
 		</div>
 	);
 }
