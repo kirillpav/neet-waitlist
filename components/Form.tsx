@@ -11,7 +11,7 @@ const Form = () => {
 		e.preventDefault();
 
 		try {
-			let response = await fetch("/api/waitlist/", {
+			let response = await fetch("api/waitlist", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
