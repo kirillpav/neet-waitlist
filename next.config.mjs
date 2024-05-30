@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-	output: "export", // <=== enables static exports
-	basePath: "/neet-waitlist",
-	reactStrictMode: true,
-};
+const nextConfig = {};
 
 export default nextConfig;

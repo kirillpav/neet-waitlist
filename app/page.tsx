@@ -4,7 +4,7 @@ import React from "react";
 import localFont from "next/font/local";
 import styles from "../public/styles/Landing.module.css";
 import Image from "next/image";
-import ThreeScene from "@/components/ThreeScene";
+
 import Form from "@/components/Form";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
 
 			<div className={styles.container}>
 				<Image
-					src="/imgs/globeart.png"
+					src="/imgs/map-base-1.png"
 					className={styles.world__image}
 					width={500}
 					height={500}

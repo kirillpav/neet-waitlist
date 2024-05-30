@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 
 import "./globals.css";
 
-const myFont = localFont({ src: "../public/fonts/Welth-Catritz-Regular.otf" });
+const myFont = localFont({ src: "../public/fonts/Excon-Regular.otf" });
 const nomerok = localFont({ src: "../public/fonts/SK-Nomerok.ttf" });
 
 export const metadata: Metadata = {
